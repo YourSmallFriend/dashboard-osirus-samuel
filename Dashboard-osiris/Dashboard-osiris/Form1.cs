@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Dashboard_osiris
 {
-    public partial class Form1 : Form
+    public partial class dashboard_start : Form
     {
-        public Form1()
+        public dashboard_start()
         {
             InitializeComponent();
         }
