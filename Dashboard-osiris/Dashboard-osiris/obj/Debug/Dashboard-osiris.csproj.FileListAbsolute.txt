@@ -1,0 +1,10 @@
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\bin\Debug\Dashboard-osiris.exe.config
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\bin\Debug\Dashboard-osiris.exe
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\bin\Debug\Dashboard-osiris.pdb
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard-osiris.csproj.AssemblyReference.cache
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard_osiris.dashboard_start.resources
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard_osiris.Properties.Resources.resources
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard-osiris.csproj.GenerateResource.cache
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard-osiris.csproj.CoreCompileInputs.cache
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard-osiris.exe
+C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard-osiris.pdb
