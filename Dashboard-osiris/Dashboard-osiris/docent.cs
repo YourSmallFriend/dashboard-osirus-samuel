@@ -16,6 +16,7 @@ namespace Dashboard_osiris
         public string Naam { get; set; }
         public string Wachtwoord { get; set; }
         public string Vak_Naam { get; set; }
+        public docent IngelogdeDocent { get; set; }
 
         // zet elke docent in een list
         public List<docent> docenten = new List<docent>();

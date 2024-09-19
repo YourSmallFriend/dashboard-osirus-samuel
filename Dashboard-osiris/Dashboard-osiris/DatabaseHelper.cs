@@ -59,5 +59,30 @@ namespace Dashboard_osiris
             }
             return dt;
         }
+
+        // haal de studenten op uit de database en zet ze in een datatable zodat ze makkelijk te gebruiken zijn
+        public DataTable GetStudenten()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                connection.Open();
+                string query = "SELECT * FROM studenten";
+
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                dt.Load(reader);
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return dt;
+        }
     }
 }
