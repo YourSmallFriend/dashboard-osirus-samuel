@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using MySql.Data;
+using System.Data.SqlClient;
 
 namespace Dashboard_osiris
 {
@@ -17,43 +18,25 @@ namespace Dashboard_osiris
         public dashboard_start()
         {
             InitializeComponent();
-            DatabaseHelper db = new DatabaseHelper();
-            db.connection.Open();
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM docent", db.connection);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                docent docent = new docent();
-                while (reader.Read())
-                {
-                    docent.Docent_ID = reader.GetString(0);
-                    docent.Naam = reader.GetString(1);
-                    docent.Wachtwoord = reader.GetString(2);
-                }
-
-                //als de Docent_ID en wachtwoord overeenkomen met de ingevoerde gegevens dan zie je in een messagebox dat je bent ingelogd
-
-                if (docent.Docent_ID == Txt_gebruikersnaam.Text && docent.Wachtwoord == Txt_wachtwoord.Text)
-                {
-                    MessageBox.Show("U bent ingelogd");
-                }
-                else
-                {
-                    MessageBox.Show("U bent niet ingelogd");
-                }
-
-                if (reader != null)
-                {
-                    reader.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                // laat de meldeing zien die de database terug geeft
-                MessageBox.Show("Error: " + ex.Message);
-            }
-            db.connection.Close();
         }
 
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+            //maak een nieuwe instantie van de docent class en haal de docenten op
+            docent docent = new docent();
+            docent.HaalDocentenOp();
+
+            //als er een docent is uit de list docenten die het docent_ID en wachtwoord heeft die de gebruiker heeft ingevoerd dan wordt de gebruiker doorgestuurd naar het een nieuwe form
+            if (docent.docenten.Any(x => x.Docent_ID == Txt_gebruikersnaam.Text && x.Wachtwoord == Txt_wachtwoord.Text))
+            {
+                Form DocentenScherm = new DocentenScherm();
+                DocentenScherm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Docent ID of wachtwoord is onjuist");
+            }
+        }
     }
 }
