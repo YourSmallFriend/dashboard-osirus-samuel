@@ -42,11 +42,9 @@ namespace Dashboard_osiris
             //als er een student is uit de list studenten die het student_ID en wachtwoord heeft die de gebruiker heeft ingevoerd dan wordt de gebruiker doorgestuurd naar het een nieuwe form
             else if (student.studenten.Any(x => x.Student_ID == Txt_gebruikersnaam.Text && x.Wachtwoord == Txt_wachtwoord.Text))
             {
+                student.IngelogdeStudent = student.studenten.FirstOrDefault(x => x.Student_ID == Txt_gebruikersnaam.Text);
                 Form StudentenScherm = new StudentenScherm();
                 StudentenScherm.Show();
-
-                //sla de student op die is ingelogd in een var
-                var ingelogdeStudent = student.studenten.FirstOrDefault(x => x.Student_ID == Txt_gebruikersnaam.Text && x.Wachtwoord == Txt_wachtwoord.Text);
                 this.Hide();
             }
             else

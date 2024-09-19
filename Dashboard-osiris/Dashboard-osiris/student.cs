@@ -14,7 +14,7 @@ namespace Dashboard_osiris {
         public string Naam { get; set; }
         public string Wachtwoord { get; set; }
         public string Klas_ID { get; set; }
-        public student IngelogdeStudent { get; set; } // de student die is ingelogd
+        public static student IngelogdeStudent { get; set; }
 
         // zet elke student in een list
         public List<student> studenten = new List<student>();

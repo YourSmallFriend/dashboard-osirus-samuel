@@ -15,16 +15,17 @@ namespace Dashboard_osiris
         public StudentenScherm()
         {
             InitializeComponent();
+            this.Load += new EventHandler(StudentenScherm_Load);
         }
 
-        
         private void StudentenScherm_Load(object sender, EventArgs e)
         {
             student student = new student();
 
             //zet alle informatie van de student die is ingelogd in de textbox
-            textBox1.Text = "Student ID: " + student.IngelogdeStudent.Student_ID + Environment.NewLine + "Naam: " + student.IngelogdeStudent.Naam + Environment.NewLine + "Klas ID: " + student.IngelogdeStudent.Klas_ID;
-            student.IngelogdeStudent = student;
+            textBox1.Text = "Student ID: " + student.IngelogdeStudent.Student_ID + Environment.NewLine +
+                    "Naam: " + student.IngelogdeStudent.Naam + Environment.NewLine +
+                    "Klas ID: " + student.IngelogdeStudent.Klas_ID;
         }
     }
 }
