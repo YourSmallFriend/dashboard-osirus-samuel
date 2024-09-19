@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Txt_wachtwoord = new System.Windows.Forms.TextBox();
             this.Lbl_gebruikersnaam = new System.Windows.Forms.Label();
             this.Lbl_wachtwoord = new System.Windows.Forms.Label();
             this.Txt_gebruikersnaam = new System.Windows.Forms.TextBox();
-            this.Txt_wachtwoord = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,40 +56,40 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1478, 834);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // Txt_wachtwoord
+            // 
+            this.Txt_wachtwoord.Location = new System.Drawing.Point(742, 420);
+            this.Txt_wachtwoord.Name = "Txt_wachtwoord";
+            this.Txt_wachtwoord.Size = new System.Drawing.Size(160, 22);
+            this.Txt_wachtwoord.TabIndex = 3;
+            // 
             // Lbl_gebruikersnaam
             // 
             this.Lbl_gebruikersnaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_gebruikersnaam.AutoSize = true;
-            this.Lbl_gebruikersnaam.Location = new System.Drawing.Point(692, 401);
+            this.Lbl_gebruikersnaam.Location = new System.Drawing.Point(623, 401);
             this.Lbl_gebruikersnaam.Name = "Lbl_gebruikersnaam";
-            this.Lbl_gebruikersnaam.Size = new System.Drawing.Size(44, 16);
+            this.Lbl_gebruikersnaam.Size = new System.Drawing.Size(113, 16);
             this.Lbl_gebruikersnaam.TabIndex = 0;
-            this.Lbl_gebruikersnaam.Text = "label1";
+            this.Lbl_gebruikersnaam.Text = "Gebruikers Naam";
             // 
             // Lbl_wachtwoord
             // 
             this.Lbl_wachtwoord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_wachtwoord.AutoSize = true;
-            this.Lbl_wachtwoord.Location = new System.Drawing.Point(692, 417);
+            this.Lbl_wachtwoord.Location = new System.Drawing.Point(654, 417);
             this.Lbl_wachtwoord.Name = "Lbl_wachtwoord";
-            this.Lbl_wachtwoord.Size = new System.Drawing.Size(44, 16);
+            this.Lbl_wachtwoord.Size = new System.Drawing.Size(82, 16);
             this.Lbl_wachtwoord.TabIndex = 1;
-            this.Lbl_wachtwoord.Text = "label1";
+            this.Lbl_wachtwoord.Text = "Wachtwoord";
             // 
             // Txt_gebruikersnaam
             // 
             this.Txt_gebruikersnaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Txt_gebruikersnaam.Location = new System.Drawing.Point(742, 392);
             this.Txt_gebruikersnaam.Name = "Txt_gebruikersnaam";
-            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(100, 22);
+            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(160, 22);
             this.Txt_gebruikersnaam.TabIndex = 2;
-            // 
-            // Txt_wachtwoord
-            // 
-            this.Txt_wachtwoord.Location = new System.Drawing.Point(742, 420);
-            this.Txt_wachtwoord.Name = "Txt_wachtwoord";
-            this.Txt_wachtwoord.Size = new System.Drawing.Size(100, 22);
-            this.Txt_wachtwoord.TabIndex = 3;
             // 
             // dashboard_start
             // 
