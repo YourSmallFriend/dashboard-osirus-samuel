@@ -84,5 +84,53 @@ namespace Dashboard_osiris
             }
             return dt;
         }
+
+        public DataTable getExams()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                connection.Open();
+                string query = "SELECT * FROM examens";
+
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                dt.Load(reader);
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return dt;
+        }
+
+        public DataTable GetVakken()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                connection.Open();
+                string query = "SELECT * FROM vakken";
+
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                dt.Load(reader);
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return dt;
+        }
     }
 }

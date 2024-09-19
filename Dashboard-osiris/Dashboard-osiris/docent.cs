@@ -36,5 +36,18 @@ namespace Dashboard_osiris
                 docenten.Add(docent);
             }
         }
+        //kijk in de vakken class welke vakken bij de IngelogdeDocent horen door de Docent_ID te vergelijken met de Docent_ID in de vakken class
+        public void HaalVakkenOp()
+        {
+            Vakken vakken = new Vakken();
+            vakken.HaalVakkenOp();
+            foreach (var vak in vakken.vakken)
+            {
+                if (vak.Docent_ID == IngelogdeDocent.Docent_ID)
+                {
+                    Vak_Naam = vak.Vak_Naam;
+                }
+            }
+        }
     }
 }

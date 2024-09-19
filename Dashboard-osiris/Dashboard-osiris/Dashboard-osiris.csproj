@@ -66,6 +66,7 @@
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
     </Reference>
@@ -106,6 +107,13 @@
     <Compile Include="DocentenScherm.Designer.cs">
       <DependentUpon>DocentenScherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Examens.cs" />
+    <Compile Include="examensUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="examensUserControl.Designer.cs">
+      <DependentUpon>examensUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,8 +129,12 @@
     <Compile Include="StudentenScherm.Designer.cs">
       <DependentUpon>StudentenScherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vakken.cs" />
     <EmbeddedResource Include="DocentenScherm.resx">
       <DependentUpon>DocentenScherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="examensUserControl.resx">
+      <DependentUpon>examensUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
