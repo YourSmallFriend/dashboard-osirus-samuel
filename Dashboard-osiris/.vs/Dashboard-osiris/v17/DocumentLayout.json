@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\studentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\examens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\examens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\examens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\voortgang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\voortgang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\voortgang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Dashboard-osiris\\DocentenScherm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:30:41.726Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAWwBgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:30:06.58Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:26:55.417Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -112,8 +109,7 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:13:01.77Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -133,8 +129,7 @@
               "RelativeToolTip": "Dashboard-osiris\\Voortgang.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvysAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T15:33:15.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T15:33:15.851Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "RelativeToolTip": "Dashboard-osiris\\student.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwCMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T21:23:03.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T21:23:03.458Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "Dashboard-osiris\\Examens.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T20:03:44.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T20:03:44.907Z"
             },
             {
               "$type": "Document",
@@ -182,7 +175,7 @@
               "RelativeDocumentMoniker": "Dashboard-osiris\\StudentenScherm.cs",
               "ToolTip": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\StudentenScherm.cs",
               "RelativeToolTip": "Dashboard-osiris\\StudentenScherm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwDsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:44:04.073Z",
               "EditorCaption": ""
@@ -197,8 +190,7 @@
               "RelativeToolTip": "Dashboard-osiris\\DatabaseHelper.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAqwLcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T20:00:28.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T20:00:28.949Z"
             },
             {
               "$type": "Document",
@@ -210,8 +202,7 @@
               "RelativeToolTip": "Dashboard-osiris\\examensUserControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:43:35.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T19:43:35.186Z"
             },
             {
               "$type": "Document",
@@ -222,8 +213,7 @@
               "ToolTip": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\examensUserControl.cs [Design]",
               "RelativeToolTip": "Dashboard-osiris\\examensUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:42:16.803Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-19T19:42:16.803Z"
             }
           ]
         }
