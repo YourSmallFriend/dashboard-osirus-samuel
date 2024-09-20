@@ -29,21 +29,31 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(152, 31);
+            this.textBox1.Location = new System.Drawing.Point(152, 229);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1210, 809);
+            this.textBox1.Size = new System.Drawing.Size(1138, 203);
             this.textBox1.TabIndex = 0;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(152, 480);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(1138, 203);
+            this.textBox3.TabIndex = 2;
             // 
             // StudentenScherm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1580, 879);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
             this.Name = "StudentenScherm";
             this.Text = "StudentenScherm";
@@ -56,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

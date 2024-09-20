@@ -14,6 +14,7 @@ namespace Dashboard_osiris
         public string Vak_ID { get; set; }
         public string Vak_Naam { get; set; }
         public string Docent_Naam { get; set; }
+
         // zet elke vak in een list
         public List<Vakken> vakken = new List<Vakken>();
 
@@ -32,6 +33,20 @@ namespace Dashboard_osiris
                 };
                 vakken.Add(vak);
             }
+        }
+        // haal de docentnaam op door in de docentenlist te kijken en de docentnaam te matchen met de docent_ID
+        public string HaalDocentNaamOp(string docent_ID)
+        {
+            docent docent = new docent();
+            docent.HaalDocentenOp();
+            foreach (var docenten in docent.docenten)
+            {
+                if (docenten.Docent_ID == docent_ID)
+                {
+                    return docenten.Naam;
+                }
+            }
+            return null;
         }
     }
 }

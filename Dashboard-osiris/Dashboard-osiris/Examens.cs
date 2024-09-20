@@ -14,6 +14,7 @@ namespace Dashboard_osiris
         public string Naam { get; set; }
         public string Datum { get; set; }
         public string Vak_ID { get; set; }
+        public string Vak_Naam { get; set; }
 
         // zet elke examen in een list
         public List<Examens> examens = new List<Examens>();
@@ -33,6 +34,35 @@ namespace Dashboard_osiris
                     Vak_ID = row["Vak_ID"].ToString()
                 };
                 examens.Add(examen);
+            }
+
+
+            // Haal de vaknaam op door in de vakkenlist te kijken en de vaknaam te matchen met de vak_ID
+            Vakken vakken = new Vakken();
+            vakken.HaalVakkenOp();
+            foreach (var vak in vakken.vakken)
+            {
+                if (vak.Vak_ID == Vak_ID)
+                {
+                    Vak_Naam = vak.Vak_Naam;
+                }
+            }
+
+            // filter de examens op basis van de ingelogde student
+            student student = new student();
+            student.HaalStudentenOp();
+            foreach (var studenten in student.studenten)
+            {
+                if (studenten.Student_ID == student.IngelogdeStudent.Student_ID)
+                {
+                    foreach (var examen in examens)
+                    {
+                        if (examen.Vak_ID == studenten.Klas_ID)
+                        {
+                            Console.WriteLine("Examen: " + examen.Naam + " Datum: " + examen.Datum);
+                        }
+                    }
+                }
             }
         }
     }

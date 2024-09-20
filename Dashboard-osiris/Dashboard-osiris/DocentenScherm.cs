@@ -22,24 +22,7 @@ namespace Dashboard_osiris
         {
             docent docent = new docent();
             docent.HaalDocentenOp();
-            if (docent.IngelogdeDocent != null)
-            {
-                LblNaam.Text = docent.IngelogdeDocent.Naam;
-            }
-            else
-            {
-                LblNaam.Text = "Geen docent ingelogd";
-            }
-
-            docent.HaalVakkenOp();
-            if (!string.IsNullOrEmpty(docent.Vak_Naam))
-            {
-                LblVak.Text = docent.Vak_Naam;
-            }
-            else
-            {
-                LblVak.Text = "Geen vakken gevonden";
-            }
+            LblNaam.Text = docent.IngelogdeDocent.Naam;
         }
     }
 }

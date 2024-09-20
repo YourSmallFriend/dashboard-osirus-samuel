@@ -130,6 +130,7 @@
       <DependentUpon>StudentenScherm.cs</DependentUpon>
     </Compile>
     <Compile Include="Vakken.cs" />
+    <Compile Include="Voortgang.cs" />
     <EmbeddedResource Include="DocentenScherm.resx">
       <DependentUpon>DocentenScherm.cs</DependentUpon>
     </EmbeddedResource>

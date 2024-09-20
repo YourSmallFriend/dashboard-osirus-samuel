@@ -36,5 +36,5 @@ namespace Dashboard_osiris {
                 studenten.Add(student);
             }
         }
-    } 
+    }
 }
