@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentenScherm));
             this.LBLingelogdestudentnaam = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -46,10 +47,10 @@
             // LBLingelogdestudentnaam
             // 
             this.LBLingelogdestudentnaam.AutoSize = true;
-            this.LBLingelogdestudentnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLingelogdestudentnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBLingelogdestudentnaam.Location = new System.Drawing.Point(3, 0);
             this.LBLingelogdestudentnaam.Name = "LBLingelogdestudentnaam";
-            this.LBLingelogdestudentnaam.Size = new System.Drawing.Size(264, 65);
+            this.LBLingelogdestudentnaam.Size = new System.Drawing.Size(403, 38);
             this.LBLingelogdestudentnaam.TabIndex = 0;
             this.LBLingelogdestudentnaam.Text = "LBLingelogdestudentnaam";
             // 
@@ -57,7 +58,7 @@
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(285, 285);
+            this.comboBox1.Location = new System.Drawing.Point(292, 30);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(267, 24);
             this.comboBox1.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(558, 285);
+            this.comboBox2.Location = new System.Drawing.Point(567, 30);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(288, 24);
             this.comboBox2.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(852, 285);
+            this.comboBox3.Location = new System.Drawing.Point(865, 30);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(201, 24);
             this.comboBox3.TabIndex = 3;
@@ -84,9 +85,10 @@
             // 
             this.LBLexamenbehaald.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LBLexamenbehaald.AutoSize = true;
-            this.LBLexamenbehaald.Location = new System.Drawing.Point(285, 266);
+            this.LBLexamenbehaald.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLexamenbehaald.Location = new System.Drawing.Point(292, 0);
             this.LBLexamenbehaald.Name = "LBLexamenbehaald";
-            this.LBLexamenbehaald.Size = new System.Drawing.Size(58, 16);
+            this.LBLexamenbehaald.Size = new System.Drawing.Size(102, 25);
             this.LBLexamenbehaald.TabIndex = 4;
             this.LBLexamenbehaald.Text = "Behaald";
             // 
@@ -94,9 +96,10 @@
             // 
             this.LBLexamengefaald.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LBLexamengefaald.AutoSize = true;
-            this.LBLexamengefaald.Location = new System.Drawing.Point(558, 266);
+            this.LBLexamengefaald.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLexamengefaald.Location = new System.Drawing.Point(567, 0);
             this.LBLexamengefaald.Name = "LBLexamengefaald";
-            this.LBLexamengefaald.Size = new System.Drawing.Size(55, 16);
+            this.LBLexamengefaald.Size = new System.Drawing.Size(97, 25);
             this.LBLexamengefaald.TabIndex = 5;
             this.LBLexamengefaald.Text = "Gefaald";
             // 
@@ -104,18 +107,19 @@
             // 
             this.LBLexamentedoen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LBLexamentedoen.AutoSize = true;
-            this.LBLexamentedoen.Location = new System.Drawing.Point(852, 266);
+            this.LBLexamentedoen.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLexamentedoen.Location = new System.Drawing.Point(865, 0);
             this.LBLexamentedoen.Name = "LBLexamentedoen";
-            this.LBLexamentedoen.Size = new System.Drawing.Size(60, 16);
+            this.LBLexamentedoen.Size = new System.Drawing.Size(107, 25);
             this.LBLexamentedoen.TabIndex = 6;
             this.LBLexamentedoen.Text = "Te Doen";
             // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.IndianRed;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(295, 319);
+            this.dataGridView1.Location = new System.Drawing.Point(296, 106);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -127,54 +131,59 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(1, -3);
+            this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.LBLingelogdestudentnaam, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, -1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1366, 704);
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.83495F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.16505F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 729F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1367, 833);
             this.tableLayoutPanel1.TabIndex = 8;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.88028F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.11972F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 294F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.32743F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.67257F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 298F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 497F));
-            this.tableLayoutPanel2.Controls.Add(this.LBLingelogdestudentnaam, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox3, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.LBLexamentedoen, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox2, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.LBLexamenbehaald, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.LBLexamengefaald, 2, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox3, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.LBLexamentedoen, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox2, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.LBLexamenbehaald, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LBLexamengefaald, 2, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.12925F));
+            this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.87075F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1347, 310);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1360, 57);
             this.tableLayoutPanel2.TabIndex = 9;
             // 
             // StudentenScherm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1363, 693);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1363, 840);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.DoubleBuffered = true;
             this.Name = "StudentenScherm";
             this.Text = "StudentenScherm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
