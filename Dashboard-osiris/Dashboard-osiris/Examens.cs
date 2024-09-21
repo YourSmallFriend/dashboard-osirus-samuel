@@ -30,7 +30,6 @@ namespace Dashboard_osiris
                 {
                     Examen_ID = row["Examen_ID"].ToString(),
                     Naam = row["Naam"].ToString(),
-                    Datum = row["Datum"].ToString(),
                     Vak_ID = row["Vak_ID"].ToString()
                 };
                 examens.Add(examen);
