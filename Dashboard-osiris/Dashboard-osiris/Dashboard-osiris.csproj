@@ -109,12 +109,6 @@
       <DependentUpon>DocentenScherm.cs</DependentUpon>
     </Compile>
     <Compile Include="Examens.cs" />
-    <Compile Include="examensUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="examensUserControl.Designer.cs">
-      <DependentUpon>examensUserControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +129,6 @@
     <Compile Include="Voortgang.cs" />
     <EmbeddedResource Include="DocentenScherm.resx">
       <DependentUpon>DocentenScherm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="examensUserControl.resx">
-      <DependentUpon>examensUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

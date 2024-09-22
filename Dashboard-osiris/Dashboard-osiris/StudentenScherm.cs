@@ -112,7 +112,7 @@ namespace Dashboard_osiris
                     if (!displayedExams.Contains(examKey))
                     {
                         // Voeg de voortgang van de student toe aan de ComboBox als een nieuwe item
-                        comboBox3.Items.Add($"{matchingVak.Vak_Naam},{examen.Naam},Nog geen cijfer");
+                        comboBox3.Items.Add($"{matchingVak.Vak_Naam},{examen.Naam}");
                         displayedExams.Add(examKey);
                     }
                 }

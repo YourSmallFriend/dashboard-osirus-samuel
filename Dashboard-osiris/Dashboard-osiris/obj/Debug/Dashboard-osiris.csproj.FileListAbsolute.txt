@@ -86,4 +86,3 @@ C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osi
 C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboar.51019BBA.Up2Date
 C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard_osiris.DocentenScherm.resources
 C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard_osiris.StudentenScherm.resources
-C:\Users\samuel\OneDrive\Documenten\GitHub\dashboard-osirus-samuel\Dashboard-osiris\Dashboard-osiris\obj\Debug\Dashboard_osiris.examensUserControl.resources

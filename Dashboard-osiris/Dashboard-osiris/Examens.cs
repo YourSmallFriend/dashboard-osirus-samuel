@@ -52,7 +52,7 @@ namespace Dashboard_osiris
             student.HaalStudentenOp();
             foreach (var studenten in student.studenten)
             {
-                if (studenten.Student_ID == student.IngelogdeStudent.Student_ID)
+                if (student.IngelogdeStudent != null && studenten.Student_ID == student.IngelogdeStudent.Student_ID)
                 {
                     foreach (var examen in examens)
                     {
@@ -61,6 +61,11 @@ namespace Dashboard_osiris
                             Console.WriteLine("Examen: " + examen.Naam + " Datum: " + examen.Datum);
                         }
                     }
+                }
+                else
+                {
+                    // Handle the case where IngelogdeStudent is null
+                    Console.WriteLine("IngelogdeStudent is not set.");
                 }
             }
         }
