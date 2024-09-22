@@ -13,7 +13,7 @@ namespace Dashboard_osiris
 {
     public class DatabaseHelper
     {
-        public string connectionString = "server=localhost;database=osiris-dashboard_final;user=root";
+        public string connectionString = "server=localhost;database=dashboard;user=root";
         public MySqlConnection connection;
 
         // probberen connectie te maken met de database in een try catch block als de applicatie aan staat

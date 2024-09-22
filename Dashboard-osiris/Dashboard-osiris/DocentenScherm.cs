@@ -27,7 +27,7 @@ namespace Dashboard_osiris
             dataGridView1.Columns[1].Name = "Vak";
             dataGridView1.Columns[2].Name = "Gemiddelde";
 
-            // Haal alle vakken, voortgang en examens op
+            // Fetch all subjects, progress, and exams
             Vakken vakken = new Vakken();
             vakken.HaalVakkenOp();
             Voortgang voortgang = new Voortgang();
@@ -46,7 +46,7 @@ namespace Dashboard_osiris
                     {
                         if (voortgangen.Vak_ID == vak.Vak_ID)
                         {
-                            // Match de naam van de student met de student_id van de voortgang
+                            // Match the student name with the student_id from progress
                             student student = new student();
                             student.HaalStudentenOp();
                             foreach (var studenten in student.studenten)
@@ -65,7 +65,7 @@ namespace Dashboard_osiris
                                         studentRows[studenten.Student_ID] = (row, new List<double>());
                                     }
 
-                                    // Voeg de voortgang van de examens toe aan de data grid view
+                                    // Add the progress of the exams to the data grid view
                                     foreach (var examen in examens.examens)
                                     {
                                         // Ensure the exam is for the correct subject
@@ -80,10 +80,9 @@ namespace Dashboard_osiris
 
                                             // Add the exam result to the student's row
                                             DataGridViewRow studentRow = studentRows[studenten.Student_ID].row;
-                                            studentRow.Cells[dataGridView1.Columns[columnName].Index].Value = voortgangen.Cijfer;
-                                            double cijfer;
-                                            if (double.TryParse(voortgangen.Cijfer, out cijfer))
+                                            if (double.TryParse(voortgangen.Cijfer, out double cijfer))
                                             {
+                                                studentRow.Cells[dataGridView1.Columns[columnName].Index].Value = voortgangen.Cijfer;
                                                 studentRows[studenten.Student_ID].grades.Add(cijfer);
                                             }
                                             else
@@ -91,7 +90,7 @@ namespace Dashboard_osiris
                                                 // Handle the invalid format case, e.g., log an error or set a default value
                                                 Console.WriteLine($"Invalid cijfer format: {voortgangen.Cijfer}");
                                             }
-                                            // maak de kollomen net zo breed als de datagridview
+                                            // Make the columns as wide as the data grid view
                                             dataGridView1.Columns[columnName].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                                         }
                                     }
@@ -100,7 +99,7 @@ namespace Dashboard_osiris
                         }
                     }
 
-                    // Zet de vaknaam in label2
+                    // Set the subject name in label2
                     label2.Text = "Vak: " + vak.Vak_Naam;
                 }
             }

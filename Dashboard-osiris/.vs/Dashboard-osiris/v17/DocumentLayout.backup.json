@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|c:\\users\\samuel\\onedrive\\documenten\\github\\dashboard-osirus-samuel\\dashboard-osiris\\dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\docentenscherm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\voortgang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\voortgang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\docent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\docent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\vakken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\dashboard-osiris\\klas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76080302-88B5-469A-BAA8-977770D7B1BA}|Dashboard-osiris\\Dashboard-osiris.csproj|solutionrelative:dashboard-osiris\\klas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -54,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DocentenScherm.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\DocentenScherm.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\DocentenScherm.cs",
               "ToolTip": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\DocentenScherm.cs",
               "RelativeToolTip": "Dashboard-osiris\\DocentenScherm.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwF4AAACBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:30:06.58Z",
               "IsPinned": true,
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DocentenScherm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\DocentenScherm.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\DocentenScherm.cs",
@@ -91,14 +91,15 @@
               "RelativeDocumentMoniker": "Dashboard-osiris\\docent.cs",
               "ToolTip": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\docent.cs",
               "RelativeToolTip": "Dashboard-osiris\\docent.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:26:55.417Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Vakken.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\Vakken.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\Vakken.cs",
@@ -111,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Voortgang.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\Voortgang.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\Voortgang.cs",
@@ -120,11 +121,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T15:33:15.851Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "student.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\student.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\student.cs",
@@ -137,16 +139,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\DatabaseHelper.cs",
               "ToolTip": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\DatabaseHelper.cs",
               "RelativeToolTip": "Dashboard-osiris\\DatabaseHelper.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAcwMAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:00:28.949Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -158,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\Form1.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\Form1.cs",
@@ -170,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\Form1.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\Form1.cs",
@@ -181,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Examens.cs",
               "DocumentMoniker": "C:\\Users\\samuel\\OneDrive\\Documenten\\GitHub\\dashboard-osirus-samuel\\Dashboard-osiris\\Dashboard-osiris\\Examens.cs",
               "RelativeDocumentMoniker": "Dashboard-osiris\\Examens.cs",
