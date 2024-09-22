@@ -112,7 +112,7 @@ namespace Dashboard_osiris
                     if (!displayedExams.Contains(examKey))
                     {
                         // Voeg de voortgang van de student toe aan de ComboBox als een nieuwe item
-                        comboBox3.Items.Add($"{matchingVak.Vak_Naam},{examen.Naam}");
+                        comboBox3.Items.Add($"{matchingVak.Vak_Naam},{examen.Naam},Nog geen cijfer");
                         displayedExams.Add(examKey);
                     }
                 }
@@ -141,6 +141,10 @@ namespace Dashboard_osiris
                 {
                     var gemiddelde = cijfers.Average();
                     dt.Rows.Add(vak.Vak_Naam, gemiddelde, vak.Vak_ID);
+                }
+                else
+                {
+                    dt.Rows.Add(vak.Vak_Naam, "Nog geen cijfer", vak.Vak_ID);
                 }
             }
             //zet de datagridview op de datagridview1
