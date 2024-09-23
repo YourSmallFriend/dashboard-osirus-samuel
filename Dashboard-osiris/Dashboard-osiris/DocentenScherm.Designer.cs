@@ -57,7 +57,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(259, 0);
+            this.label2.Location = new System.Drawing.Point(216, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 29);
             this.label2.TabIndex = 3;
@@ -67,7 +67,7 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(344, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(301, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -89,7 +89,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.18468F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.81532F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1976, 888);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1933, 888);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // tableLayoutPanel2
@@ -104,7 +104,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1970, 685);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1927, 685);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // DocentenScherm
@@ -113,7 +113,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1967, 887);
+            this.ClientSize = new System.Drawing.Size(1924, 887);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.Name = "DocentenScherm";
