@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 22, 2024 at 03:34 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: Sep 23, 2024 at 02:43 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `osiris-dashboard_final`
+-- Database: `dashboard`
 --
 
 -- --------------------------------------------------------
@@ -81,7 +81,8 @@ CREATE TABLE `klas` (
 --
 
 INSERT INTO `klas` (`Klas_ID`, `Klas_Naam`) VALUES
-(1, 'Klas A');
+(1, 'Klas A'),
+(2, 'Klas B');
 
 -- --------------------------------------------------------
 
@@ -103,7 +104,9 @@ CREATE TABLE `studenten` (
 INSERT INTO `studenten` (`Student_ID`, `Naam`, `Wachtwoord`, `Klas_ID`) VALUES
 (2, 'Lisa', 'lisa123', 1),
 (3, 'Tom', 'tom123', 1),
-(4, 'Sara', 'sara123', 1);
+(4, 'Sara', 'sara123', 1),
+(5, 'Achraf', 'achraf123', 2),
+(6, 'Marco Abraham Romero torralbo', 'marco123', 2);
 
 -- --------------------------------------------------------
 
@@ -154,7 +157,9 @@ INSERT INTO `voortgang` (`Student_ID`, `Vak_ID`, `Examen_ID`, `Cijfer`) VALUES
 (3, 3, 7, 7.7),
 (4, 1, 1, 7.5),
 (4, 2, 2, 8.5),
-(4, 3, 4, 7.5);
+(4, 3, 4, 7.5),
+(5, 2, 2, 10.0),
+(6, 2, 2, 4.9);
 
 --
 -- Indexes for dumped tables
@@ -221,13 +226,13 @@ ALTER TABLE `examens`
 -- AUTO_INCREMENT for table `klas`
 --
 ALTER TABLE `klas`
-  MODIFY `Klas_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `Klas_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `studenten`
 --
 ALTER TABLE `studenten`
-  MODIFY `Student_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `Student_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `vakken`
