@@ -19,7 +19,6 @@ namespace Dashboard_osiris
         {
             InitializeComponent();
         }
-
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             //maak een nieuwe instantie van de docent class en haal de docenten op
@@ -54,5 +53,13 @@ namespace Dashboard_osiris
                 MessageBox.Show("ID of wachtwoord is onjuist");
             }
         }
+        //als de gebruiker op enter drukt wordt de BtnLogin_Click functie uitgevoerd
+        private void Txt_wachtwoord_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnLogin_Click(this, new EventArgs());
+            }
+        }   
     }
 }

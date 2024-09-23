@@ -56,6 +56,11 @@ namespace Dashboard_osiris
                                     // Check if the student row already exists
                                     if (!studentRows.ContainsKey(studenten.Student_ID))
                                     {
+                                        //filter op klassen zet de klassen in een listbox en als er een klas is geselecteerd dan laat hij alleen de studenten van die klas zien
+                                        //
+                                        //
+                                        //
+                                        //
                                         // Create a new row for the student
                                         DataGridViewRow row = new DataGridViewRow();
                                         row.CreateCells(dataGridView1);
@@ -98,9 +103,6 @@ namespace Dashboard_osiris
                             }
                         }
                     }
-
-                    // Set the subject name in label2
-                    label2.Text = "Vak: " + vak.Vak_Naam;
                 }
             }
 
@@ -114,6 +116,11 @@ namespace Dashboard_osiris
                     row.Cells[2].Value = average.ToString("F2"); // Format to 2 decimal places
                 }
             }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

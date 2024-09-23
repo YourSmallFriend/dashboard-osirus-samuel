@@ -51,26 +51,28 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(-2, -4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.06593F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.934066F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 91.64835F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.351648F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 378F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1478, 834);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Txt_wachtwoord
             // 
-            this.Txt_wachtwoord.Location = new System.Drawing.Point(678, 431);
+            this.Txt_wachtwoord.Location = new System.Drawing.Point(678, 420);
+            this.Txt_wachtwoord.Multiline = true;
             this.Txt_wachtwoord.Name = "Txt_wachtwoord";
-            this.Txt_wachtwoord.Size = new System.Drawing.Size(160, 22);
+            this.Txt_wachtwoord.Size = new System.Drawing.Size(184, 32);
             this.Txt_wachtwoord.TabIndex = 3;
             // 
             // Lbl_wachtwoord
             // 
             this.Lbl_wachtwoord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_wachtwoord.AutoSize = true;
-            this.Lbl_wachtwoord.Location = new System.Drawing.Point(590, 428);
+            this.Lbl_wachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_wachtwoord.Location = new System.Drawing.Point(525, 417);
             this.Lbl_wachtwoord.Name = "Lbl_wachtwoord";
-            this.Lbl_wachtwoord.Size = new System.Drawing.Size(82, 16);
+            this.Lbl_wachtwoord.Size = new System.Drawing.Size(147, 29);
             this.Lbl_wachtwoord.TabIndex = 1;
             this.Lbl_wachtwoord.Text = "Wachtwoord";
             // 
@@ -78,7 +80,7 @@
             // 
             this.BtnLogin.Location = new System.Drawing.Point(678, 458);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(160, 34);
+            this.BtnLogin.Size = new System.Drawing.Size(184, 48);
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "login";
             this.BtnLogin.UseVisualStyleBackColor = true;
@@ -88,18 +90,20 @@
             // 
             this.Lbl_gebruikersnaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_gebruikersnaam.AutoSize = true;
-            this.Lbl_gebruikersnaam.Location = new System.Drawing.Point(559, 412);
+            this.Lbl_gebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_gebruikersnaam.Location = new System.Drawing.Point(470, 388);
             this.Lbl_gebruikersnaam.Name = "Lbl_gebruikersnaam";
-            this.Lbl_gebruikersnaam.Size = new System.Drawing.Size(113, 16);
+            this.Lbl_gebruikersnaam.Size = new System.Drawing.Size(202, 29);
             this.Lbl_gebruikersnaam.TabIndex = 0;
             this.Lbl_gebruikersnaam.Text = "Gebruikers Naam";
             // 
             // Txt_gebruikersnaam
             // 
             this.Txt_gebruikersnaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.Txt_gebruikersnaam.Location = new System.Drawing.Point(678, 403);
+            this.Txt_gebruikersnaam.Location = new System.Drawing.Point(678, 382);
+            this.Txt_gebruikersnaam.Multiline = true;
             this.Txt_gebruikersnaam.Name = "Txt_gebruikersnaam";
-            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(160, 22);
+            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(184, 32);
             this.Txt_gebruikersnaam.TabIndex = 2;
             // 
             // dashboard_start
@@ -108,6 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1472, 827);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "dashboard_start";
