@@ -133,5 +133,13 @@ namespace Dashboard_osiris
             UpdateCijferScherm updateCijfer = new UpdateCijferScherm();
             updateCijfer.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //refresh de pagina
+            this.Controls.Clear();
+            this.InitializeComponent();
+            this.DocentenScherm_Load(this, EventArgs.Empty);
+        }
     }
 }
