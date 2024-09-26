@@ -105,7 +105,6 @@ namespace Dashboard_osiris
                     }
                 }
             }
-
             // Calculate and set the average grade for each student
             foreach (var studentEntry in studentRows)
             {
@@ -121,6 +120,18 @@ namespace Dashboard_osiris
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+            AddStudent addStudent = new AddStudent();
+            addStudent.Show();
+        }
+
+        private void btnUpdateCijfer_Click(object sender, EventArgs e)
+        {
+            UpdateCijferScherm updateCijfer = new UpdateCijferScherm();
+            updateCijfer.Show();
         }
     }
 }

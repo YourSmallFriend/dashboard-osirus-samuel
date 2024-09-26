@@ -33,10 +33,13 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.btnUpdateCijfer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -86,7 +89,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1629F));
             this.tableLayoutPanel2.Controls.Add(this.dataGridView1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.listBox1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 199);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
@@ -94,15 +97,39 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1927, 685);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
-            // listBox1
+            // tableLayoutPanel3
             // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(175, 3);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 84);
-            this.listBox1.TabIndex = 5;
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.btnUpdateCijfer, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.btnAddStudent, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 2;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 118F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(292, 224);
+            this.tableLayoutPanel3.TabIndex = 5;
+            // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.Location = new System.Drawing.Point(3, 3);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(192, 68);
+            this.btnAddStudent.TabIndex = 0;
+            this.btnAddStudent.Text = "Add Student";
+            this.btnAddStudent.UseVisualStyleBackColor = true;
+            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
+            // 
+            // btnUpdateCijfer
+            // 
+            this.btnUpdateCijfer.Location = new System.Drawing.Point(3, 109);
+            this.btnUpdateCijfer.Name = "btnUpdateCijfer";
+            this.btnUpdateCijfer.Size = new System.Drawing.Size(192, 68);
+            this.btnUpdateCijfer.TabIndex = 1;
+            this.btnUpdateCijfer.Text = "Update cijfer";
+            this.btnUpdateCijfer.UseVisualStyleBackColor = true;
+            this.btnUpdateCijfer.Click += new System.EventHandler(this.btnUpdateCijfer_Click);
             // 
             // DocentenScherm
             // 
@@ -121,6 +148,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -131,6 +159,8 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Button btnUpdateCijfer;
+        private System.Windows.Forms.Button btnAddStudent;
     }
 }
