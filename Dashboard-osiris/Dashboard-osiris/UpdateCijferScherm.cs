@@ -59,6 +59,7 @@ namespace Dashboard_osiris
             student.HaalStudentenOp();
             Examens examens = new Examens();
             examens.HaalExamensOp();
+
             foreach (var studenten in student.studenten)
             {
                 if (studenten.Naam == comboboxStudent.SelectedItem.ToString())
@@ -67,6 +68,7 @@ namespace Dashboard_osiris
                     {
                         if (examen.Naam == comboboxExamen.SelectedItem.ToString())
                         {
+                            bool voortgangGevonden = false;
                             foreach (var voortgangen in voortgang.Voortgangen)
                             {
                                 if (voortgangen.Student_ID == studenten.Student_ID && voortgangen.Vak_ID == examen.Vak_ID)
@@ -74,18 +76,20 @@ namespace Dashboard_osiris
                                     UpdateCijfer(voortgangen.Student_ID, voortgangen.Vak_ID, Convert.ToDouble(txtCijfer.Text));
                                     MessageBox.Show("Cijfer is geupdate");
                                     this.Hide();
-                                }
-                                else
-                                {
-                                    MessageBox.Show("Student heeft nog geen voortgang in dit vak");
+                                    voortgangGevonden = true;
                                     break;
                                 }
+                            }
+                            if (!voortgangGevonden)
+                            {
+                                MessageBox.Show("Student heeft nog geen voortgang in dit vak");
                             }
                         }
                     }
                 }
             }
         }
+
 
         private void UpdateCijfer(string studentId, string vakId, double cijfer)
         {
