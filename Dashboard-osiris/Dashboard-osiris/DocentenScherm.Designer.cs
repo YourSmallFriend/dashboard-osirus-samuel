@@ -34,8 +34,8 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnAddStudent = new System.Windows.Forms.Button();
             this.btnUpdateCijfer = new System.Windows.Forms.Button();
+            this.btnAddStudent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -111,25 +111,27 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(292, 224);
             this.tableLayoutPanel3.TabIndex = 5;
             // 
-            // btnAddStudent
-            // 
-            this.btnAddStudent.Location = new System.Drawing.Point(3, 3);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(192, 68);
-            this.btnAddStudent.TabIndex = 0;
-            this.btnAddStudent.Text = "Add Student";
-            this.btnAddStudent.UseVisualStyleBackColor = true;
-            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
-            // 
             // btnUpdateCijfer
             // 
-            this.btnUpdateCijfer.Location = new System.Drawing.Point(3, 109);
+            this.btnUpdateCijfer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnUpdateCijfer.Location = new System.Drawing.Point(97, 109);
             this.btnUpdateCijfer.Name = "btnUpdateCijfer";
             this.btnUpdateCijfer.Size = new System.Drawing.Size(192, 68);
             this.btnUpdateCijfer.TabIndex = 1;
             this.btnUpdateCijfer.Text = "Update cijfer";
             this.btnUpdateCijfer.UseVisualStyleBackColor = true;
             this.btnUpdateCijfer.Click += new System.EventHandler(this.btnUpdateCijfer_Click);
+            // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddStudent.Location = new System.Drawing.Point(97, 3);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(192, 68);
+            this.btnAddStudent.TabIndex = 0;
+            this.btnAddStudent.Text = "Add Student";
+            this.btnAddStudent.UseVisualStyleBackColor = true;
+            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
             // 
             // DocentenScherm
             // 

@@ -28,37 +28,76 @@ namespace Dashboard_osiris
                 comboboxStudent.Items.Add(studenten.Naam);
             }
 
-            //als je een student selecteerd in de comboboxStudentdan word die in een variable gezet en dan worden de examens van die student in de comboboxExamens gezet
-            var selectedStudent = student.studenten[comboboxStudent.SelectedIndex];
+            // in het examen combobox worden alle examens gezet die gerelateerd zijn aan het vak van de ingelogde docent laat de examen naam zien
             Examens examens = new Examens();
             examens.HaalExamensOp();
-            foreach (var examen in examens.examens)
+            docent docent = new docent();
+            docent.HaalDocentenOp();
+            Vakken vakken = new Vakken();
+            vakken.HaalVakkenOp();
+            foreach (var vak in vakken.vakken)
             {
-                if (examen.Vak_ID == selectedStudent.Klas_ID)
+                if (vak.Docent_ID == docent.IngelogdeDocent.Docent_ID)
                 {
-                    comboboxExamen.Items.Add(examen.Naam);
+                    foreach (var examen in examens.examens)
+                    {
+                        if (examen.Vak_ID == vak.Vak_ID)
+                        {
+                            comboboxExamen.Items.Add(examen.Naam);
+                        }
+                    }
                 }
             }
+
         }
         private void bntUpdateStudent_Click(object sender, EventArgs e)
         {
             //in textboxCijfer kan je het cijfer invullen en daarnaa kan je op de button klikken om het cijfer te updaten in de database
-            var selectedStudent = student.studenten[comboboxStudent.SelectedIndex];
-            Examens selectedExamen = Examens.examens[comboboxExamen.SelectedIndex];
-
-            var cijfer = txtCijfer.Text;
-            if (selectedStudent != null)
+            Voortgang voortgang = new Voortgang();
+            voortgang.HaalVoortgangOp();
+            student student = new student();
+            student.HaalStudentenOp();
+            Examens examens = new Examens();
+            examens.HaalExamensOp();
+            foreach (var studenten in student.studenten)
             {
-                DatabaseHelper databaseHelper = new DatabaseHelper();
-                databaseHelper.connection.Open();
-                string query = "UPDATE voortgang SET Cijfer = @cijfer WHERE Student_ID = @student_id AND Examen_ID = @examen_id";
-                MySqlCommand cmd = new MySqlCommand(query, databaseHelper.connection);
-                cmd.Parameters.AddWithValue("@cijfer", cijfer);
-                cmd.Parameters.AddWithValue("@student_id", selectedStudent.Student_ID);
-                cmd.Parameters.AddWithValue("@examen_id", selectedExamen.Examen_ID);
-                cmd.ExecuteNonQuery();
-                databaseHelper.connection.Close();
+                if (studenten.Naam == comboboxStudent.SelectedItem.ToString())
+                {
+                    foreach (var examen in examens.examens)
+                    {
+                        if (examen.Naam == comboboxExamen.SelectedItem.ToString())
+                        {
+                            foreach (var voortgangen in voortgang.Voortgangen)
+                            {
+                                if (voortgangen.Student_ID == studenten.Student_ID && voortgangen.Vak_ID == examen.Vak_ID)
+                                {
+                                    UpdateCijfer(voortgangen.Student_ID, voortgangen.Vak_ID, Convert.ToDouble(txtCijfer.Text));
+                                    MessageBox.Show("Cijfer is geupdate");
+                                    this.Hide();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Student heeft nog geen voortgang in dit vak");
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
             }
+        }
+
+        private void UpdateCijfer(string studentId, string vakId, double cijfer)
+        {
+            // Implement the logic to update the grade in the database
+            DatabaseHelper databaseHelper = new DatabaseHelper();
+            databaseHelper.connection.Open();
+            MySqlCommand cmd = new MySqlCommand("UPDATE voortgang SET Cijfer = @cijfer WHERE Student_ID = @studentId AND Vak_ID = @vakId", databaseHelper.connection);
+            cmd.Parameters.AddWithValue("@cijfer", cijfer);
+            cmd.Parameters.AddWithValue("@studentId", studentId);
+            cmd.Parameters.AddWithValue("@vakId", vakId);
+            cmd.ExecuteNonQuery();
+            databaseHelper.connection.Close();
         }
     }
 }
