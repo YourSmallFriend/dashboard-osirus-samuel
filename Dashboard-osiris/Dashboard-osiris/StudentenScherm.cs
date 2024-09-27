@@ -153,6 +153,10 @@ namespace Dashboard_osiris
             //alle rows bij elkaar moeten net zo breed zijn als de datagridview
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
+            //laat de data van de behaalde gefaalde en nog niet behaalde examens zien in chart1 de data komt uit de comboboxes
+            chart1.Series["Behaald"].Points.AddXY("Behaald", comboBox1.Items.Count);
+            chart1.Series["Gefaald"].Points.AddXY("Gefaald", comboBox2.Items.Count);
+            chart1.Series["Te Doen"].Points.AddXY("Nog niet behaald", comboBox3.Items.Count);
         }
     }
 }
