@@ -35,6 +35,12 @@ namespace Dashboard_osiris
                 klas = "2";
             }
 
+            //als er geen klas is geselecteerd of geen naam of wachtwoord is ingevuld dan word er een messagebox getoond
+            if (klas == "" || txtNaam.Text == "" || txtWachtwoord.Text == "")
+            {
+                MessageBox.Show("Vul alle velden in");
+                return;
+            }
             string query = "INSERT INTO studenten (Naam, Wachtwoord, Klas_ID) VALUES ('" + txtNaam.Text + "', '" + txtWachtwoord.Text + "', '" + klas + "')";
             MySqlCommand cmd = new MySqlCommand(query, databaseHelper.connection);
             cmd.ExecuteNonQuery();

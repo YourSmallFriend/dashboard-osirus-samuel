@@ -59,10 +59,12 @@
             // 
             // Txt_wachtwoord
             // 
+            this.Txt_wachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_wachtwoord.Location = new System.Drawing.Point(678, 420);
             this.Txt_wachtwoord.Multiline = true;
             this.Txt_wachtwoord.Name = "Txt_wachtwoord";
-            this.Txt_wachtwoord.Size = new System.Drawing.Size(184, 32);
+            this.Txt_wachtwoord.PasswordChar = '*';
+            this.Txt_wachtwoord.Size = new System.Drawing.Size(266, 32);
             this.Txt_wachtwoord.TabIndex = 3;
             // 
             // Lbl_wachtwoord
@@ -100,10 +102,11 @@
             // Txt_gebruikersnaam
             // 
             this.Txt_gebruikersnaam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Txt_gebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_gebruikersnaam.Location = new System.Drawing.Point(678, 382);
             this.Txt_gebruikersnaam.Multiline = true;
             this.Txt_gebruikersnaam.Name = "Txt_gebruikersnaam";
-            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(184, 32);
+            this.Txt_gebruikersnaam.Size = new System.Drawing.Size(266, 32);
             this.Txt_gebruikersnaam.TabIndex = 2;
             // 
             // dashboard_start

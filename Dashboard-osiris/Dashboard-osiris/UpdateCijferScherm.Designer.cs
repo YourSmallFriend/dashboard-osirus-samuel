@@ -37,7 +37,7 @@
             // comboboxStudent
             // 
             this.comboboxStudent.FormattingEnabled = true;
-            this.comboboxStudent.Location = new System.Drawing.Point(161, 192);
+            this.comboboxStudent.Location = new System.Drawing.Point(12, 12);
             this.comboboxStudent.Name = "comboboxStudent";
             this.comboboxStudent.Size = new System.Drawing.Size(121, 24);
             this.comboboxStudent.TabIndex = 0;
@@ -45,14 +45,14 @@
             // comboboxExamen
             // 
             this.comboboxExamen.FormattingEnabled = true;
-            this.comboboxExamen.Location = new System.Drawing.Point(288, 192);
+            this.comboboxExamen.Location = new System.Drawing.Point(139, 12);
             this.comboboxExamen.Name = "comboboxExamen";
             this.comboboxExamen.Size = new System.Drawing.Size(121, 24);
             this.comboboxExamen.TabIndex = 1;
             // 
             // txtCijfer
             // 
-            this.txtCijfer.Location = new System.Drawing.Point(415, 192);
+            this.txtCijfer.Location = new System.Drawing.Point(266, 12);
             this.txtCijfer.Multiline = true;
             this.txtCijfer.Name = "txtCijfer";
             this.txtCijfer.Size = new System.Drawing.Size(100, 24);
@@ -60,7 +60,7 @@
             // 
             // bntUpdateStudent
             // 
-            this.bntUpdateStudent.Location = new System.Drawing.Point(521, 192);
+            this.bntUpdateStudent.Location = new System.Drawing.Point(372, 12);
             this.bntUpdateStudent.Name = "bntUpdateStudent";
             this.bntUpdateStudent.Size = new System.Drawing.Size(100, 25);
             this.bntUpdateStudent.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(496, 55);
             this.Controls.Add(this.bntUpdateStudent);
             this.Controls.Add(this.txtCijfer);
             this.Controls.Add(this.comboboxExamen);
